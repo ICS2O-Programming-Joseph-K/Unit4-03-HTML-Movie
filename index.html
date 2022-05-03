@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Metadata for this site -->
+    <meta charset="utf-8">
+    <meta name="description" content="Age to Movie Ratings">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Joseph Kwon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Favicon for this site -->
+    <link rel="apple-touch-icon.png" sizes="180x180" href="./fav_index/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Age to Movie Ratings</title>
+    
+  </head>
+  <body>
+    
+    <script src="./js/script.js"></script>
+    
+    <h1>See What Movie Ratings your Age is Capable of Watching</h1>
+    
+					<h3>Enther the equested information into the textfield</h3>
+
+          <!-- Recieving user input -->
+					<form action="javascript:enterClicked()">						
+						<label for="age">What is your age? (No decimals):</label>
+						<input type="number" step="1" min="0" max="118" id="age" placeholder="Enter age"><br><br>
+						<input type="submit" value="Check movie ratings for my age">
+					</form>
+			
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="user-info">
+			</div>
+		</div>
+  </body>
+</html>
