@@ -1,6 +1,6 @@
 "use strict"
 
-// See which movie rating catagory the user belongs in by age
+// See which movie rating category the user belongs in by age
 function enterClicked () {
   	// initialize variables
 	let Output = ""
@@ -13,7 +13,7 @@ function enterClicked () {
 		Output = "Hello, Lucile Randon!"
 	} 
 
-  	// if user input is 17 or higher
+  	// else if user input is 17 or higher
 	else if (age >= 17) {
 		Output = "You can watch R rated films."
 	} 
@@ -30,7 +30,7 @@ function enterClicked () {
     
 	// else, if any other value
 	else {
-		Output = "You cannot go to the theates alone."
+		Output = "You cannot go to the theaters alone."
 	}
 	
   // display the results
